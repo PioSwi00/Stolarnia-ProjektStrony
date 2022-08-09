@@ -1,0 +1,64 @@
+$body-color:white;
+$primary:rgb(63, 44, 212);
+$maincolor:black;
+
+html, body {
+    height: 100%;
+  }
+
+.logo{
+    background: black url('../images/logo.jpg');
+    background-size:cover;
+}
+.navbar-collapse{
+    justify-content:right;
+}
+
+@media  (min-width: 168px) {
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+   
+}
+
+.descrip{
+    background:black url('../images/bg2.jpg');
+    background-size:cover;
+    font-family: 'Playfair Display', sans-serif;
+  
+
+}
+.wood-ads{
+    color: $maincolor;
+    padding-bottom: 20%;
+
+}
+.info{
+    color: $maincolor;
+}
+
+.root{
+    min-height: 100%;
+    overflow:auto;
+    padding-bottom:150px
+ 
+
+}
+.footer{
+
+  
+  background-color:rgb(238, 225, 225);
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  
+}
+
+.hrs{
+    justify-content:right;
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
+
